@@ -5,27 +5,12 @@
 ## Application
 
 * Azure Function
-    * Create Resource Group : HTTP Trigger
-    * Remove Resource Group : Timer Trigger
-    * Managed Service Identity
+  * Billing Tag Manager : Timer Trigger
+  * Managed Service Identity
 
-You must assign Managed Service Identity to your target subscription with role **Contributor** or custom role Read, Write, Delete on ResourceGroup
+You must assign Managed Service Identity to your target subscription with role **Contributor** or custom role Write tags on ResourceGroup and can read billing data
 
-## Create Resource Group
 
-POST METHOD
-```json
-{ 
-     name: "nameValue", 
-     expirationDate: "2018-09-25",
-     location: "West Europe" 
-}
-```
+## Billing Tag Manager
 
-Optional values : 
-* expirationDate : set current date
-* location : West Europe
-
-## Remove Resource Group
-
-TimerTrigger with schedule : __0 0 4 * * *__
+TimerTrigger with schedule : __0 0 */4 * * *__
