@@ -13,7 +13,7 @@
             "metadata": {
                 "description": "Define tags billing period. Separated by ;"
             },
-            "defaultValue": "30m;7d"
+            "defaultValue": "1d;7d"
         }
     },
     "variables": {
