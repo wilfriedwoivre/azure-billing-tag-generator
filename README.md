@@ -1,4 +1,4 @@
-# Azure Sandbox
+# Azure Billing Tag
 
 [![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://azuredeploy.net/?repository=https://github.com/wilfriedwoivre/azure-billing-tag-generator/tree/master/deployments)
 
