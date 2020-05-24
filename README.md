@@ -1,6 +1,6 @@
 # Azure Billing Tag
 
-[![Deploy to Azure](https://azuredeploy.net/deploybutton.svg)](https://azuredeploy.net/?repository=https://github.com/wilfriedwoivre/azure-billing-tag-generator/tree/master/deployments)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fwilfriedwoivre%2Fazure-billing-tag-generator%2Fmaster%2Fdeployments%2Fazuredeploy.json)
 
 ## Application
 
